@@ -1,0 +1,32 @@
+.menu__link{
+    margin-right: 1.25rem;
+
+    text-decoration: none;
+
+    color: var(--gris);
+}
+.menu__link:hover{
+    text-decoration: underline;
+}
+.menu__link--activo{
+    color: #333;
+
+    font-weight: bold;
+
+    margin-right: 1.25rem;
+
+    text-decoration: none;
+}
+
+@media screen and (min-width: 0){
+    .menu__link {
+        display:none;
+    
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .menu__link {
+        display: block;
+    }
+}

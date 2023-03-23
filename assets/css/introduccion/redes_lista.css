@@ -1,0 +1,11 @@
+.redes__lista{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    order: 2;
+
+    gap: 1rem;
+
+    padding: 1.25rem 0 0 0;
+}

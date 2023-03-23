@@ -1,0 +1,10 @@
+.info__academia{
+    font-family: var(--poppins);
+    font-weight: lighter;
+}
+
+@media screen and (min-width: 768px){
+    .info__academia{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,29 @@
+.about{
+    display: flex;
+    align-items: center;
+
+    background-color: #EAF2FD;
+
+    padding: 7rem;
+}
+
+@media screen and (min-width: 0){
+    .about {
+        padding: 2rem;
+    
+    }
+}
+
+@media screen and (min-width: 360px){
+    .about {
+        padding: 4rem;
+    
+    }
+}
+
+@media screen and (min-width: 768px){
+    .about {
+        padding: 5.5rem;
+    
+    }
+}

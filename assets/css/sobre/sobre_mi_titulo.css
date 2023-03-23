@@ -1,0 +1,8 @@
+.sobre__mi__titulo{
+    display: flex;
+    align-items: flex-start;
+
+    order: 0;
+
+    font-family: var(--garamond);
+}

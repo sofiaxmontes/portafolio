@@ -1,0 +1,45 @@
+@media screen and (min-width: 0){
+    .experiencia__imagen__impar{
+        width: 296px;
+        height: 144px;
+        order: 0;
+    }
+    
+    .experiencia__imagen__par{
+        width: 296px;
+        height: 144px;
+
+        order: 0;
+    }
+    
+}
+
+@media screen and (min-width: 360px){
+    .experiencia__imagen__impar{
+        width: 504px;
+        height: 320px;
+        order: 0;
+    }
+    
+    .experiencia__imagen__par{
+        width: 504px;
+        height: 320px;
+        
+        order: 0;
+    }
+    
+}
+@media screen and (min-width: 760px){
+    .experiencia__imagen__impar{
+        width: 752px;
+        height: 406px;
+        order: 0;
+    }
+    
+    .experiencia__imagen__par{
+        width: 752px;
+        height: 406px;
+        order: 1;
+    }
+    
+}

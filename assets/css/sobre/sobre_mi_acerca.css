@@ -1,0 +1,11 @@
+.sobre__mi__acerca{
+    display: flex;
+    align-items: flex-start;
+
+    order: 1;
+
+    font-family: var(--poppins);
+    font-weight: lighter;
+
+    line-height: 1.5rem;
+}

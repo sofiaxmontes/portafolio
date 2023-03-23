@@ -1,0 +1,61 @@
+.caja__respuesta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    font-family: var(--poppins);
+    font-weight: lighter;
+
+    padding-left: 1rem;
+
+    border: none;
+    border-radius: 6px;
+}
+
+textarea{
+    padding-top: 1rem;
+}
+
+.caja__respuesta::placeholder{
+    color: var(--gris);
+}
+
+@media screen and (min-width: 0){
+    .caja__respuesta {
+        width: 22rem;
+        height: 3rem;
+
+        box-shadow: none;
+    }
+
+    #mensaje{
+        height: 6rem;
+    }
+    
+}
+
+@media screen and (min-width: 360px){
+    .caja__respuesta {
+        width: 30rem;
+        height: 4rem;
+
+        box-shadow: none;
+    }
+
+    #mensaje{
+        height: 8rem;
+    }
+    
+}
+
+@media screen and (min-width: 760px){
+    .caja__respuesta{
+        width: 36rem;
+        height: 3.5rem;
+
+        box-shadow: 0px 6px 12px 0px #9f9f9f98;
+
+        font-size: 14px;
+    }
+    
+}

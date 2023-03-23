@@ -1,0 +1,18 @@
+.contacto__imagen{
+    width: 29rem;
+    height: 40rem;
+}
+
+@media screen and (min-width: 0){
+    .contacto__imagen {
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 760px){
+    .contacto__imagen {
+        display: block;
+    }
+    
+}

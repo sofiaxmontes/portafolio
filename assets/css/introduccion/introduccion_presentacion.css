@@ -1,0 +1,6 @@
+.introduccion_presentacion{
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    order: 1;
+}

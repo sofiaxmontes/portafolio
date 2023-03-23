@@ -1,0 +1,8 @@
+.experiencia__contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    font-family: var(--poppins);
+    font-weight: bold;
+}

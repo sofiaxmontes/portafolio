@@ -1,0 +1,36 @@
+.habilidades__academia{
+    background: var(--azul);
+       
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (min-width: 0px){
+    .habilidades__academia {
+        width: 100%;
+        height: 95vh;
+        gap: 0;
+    }
+    
+}
+
+@media screen and (min-width: 360px){
+    .habilidades__academia {
+        width: 100%;
+        height: 40vh;
+
+        gap: 1rem;
+    }
+    
+}
+
+
+@media screen and (min-width: 768px){
+    .habilidades__academia {
+        width: 98.9vw;
+        height: 64vh;
+
+        gap: 2rem;
+    }
+    
+}

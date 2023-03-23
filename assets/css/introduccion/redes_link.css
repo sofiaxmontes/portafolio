@@ -1,0 +1,15 @@
+.redes__link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    text-decoration: none;
+
+    font-family: var(--poppins);
+
+    color: #9f9f9f;
+}
+
+.redes__link:hover{
+    text-decoration:overline;
+}

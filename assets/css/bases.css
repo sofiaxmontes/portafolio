@@ -1,0 +1,22 @@
+:root{
+    --poppins: 'Poppins', sans-serif;
+    --garamond: 'Cormorant Garamond', serif;
+
+    
+    --azul:#EAF2FD;
+    --gris: #9f9f9f
+}
+
+@media screen and (min-width: 0){
+    html {
+        font-size: 12px;
+    
+    }
+}
+
+@media screen and (min-width: 768px){
+    html {
+        font-size: 1rem;
+    
+    }
+}

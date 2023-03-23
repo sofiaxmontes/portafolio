@@ -1,0 +1,16 @@
+.cabecera{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 2rem 0 2rem;
+}
+
+@media screen and (min-width: 0){
+    .cabecera {
+       padding: 0 .5rem 0 .5rem;
+    
+    }
+    
+}

@@ -1,0 +1,33 @@
+.contacto__contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+@media screen and (min-width: 0){
+    .contacto__contenedor {
+        width: 100%;
+
+        padding: 3rem 0 0 0;
+    }
+    
+}
+
+@media screen and (min-width: 360px){
+    .contacto__contenedor {
+        width: 100%;
+
+        padding: 3rem 0 0 3rem;
+    }
+    
+}
+
+@media screen and (min-width: 760px){
+    .contacto__contenedor {
+        width: 80%;
+
+        gap: 2rem;
+
+        padding: 0;
+    }
+    
+}
