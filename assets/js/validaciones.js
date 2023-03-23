@@ -8,7 +8,6 @@ export function validaInput (input){
     }else{
         input.parentElement.classList.add("input-container--invalid");
         input.parentElement.querySelector(".input-mensaje-error").innerHTML = mostrarMensajeDeError(tipoDeInput, input);
-        input.style.background = "#e8e8e8";
     };
 };
 export function validaTextArea(textarea) {
@@ -22,7 +21,6 @@ export function validaTextArea(textarea) {
     }else{
         textarea.parentElement.classList.add("input-container--invalid");
         textarea.parentElement.querySelector(".input-mensaje-error").innerHTML = mostrarMensajeDeError(tipoDeInput, textarea);
-        textarea.style.background = "#e8e8e8";
     }
 }
 const input = document.querySelector(".caja__respuesta");
